@@ -1,0 +1,669 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mycontainer1{
+ padding: 1rem 90px
+}
+#Header{
+    position: fixed;
+    width: 100%;
+    padding: 30px 4rem;
+}
+.Header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Header-bottom{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0px;
+    background-attachment: fixed;
+}
+.logo img{
+    max-height: 22px;
+    width: auto;
+}
+.Header-all{
+    margin: 0px 20px;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #fff;
+    position: relative;
+}
+.icon a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.icon{
+    position: relative;
+
+}
+.icon i{
+    transition: .8s;
+}
+.icon i:hover{
+    transform: translateY(-15%);
+}
+.icon span{
+    position: absolute;
+    color: #fff;
+    font-size: 13px;
+    background-color:#c0a483;
+    border-radius: 50%;
+    padding: 0px 5px;
+    text-align: center;
+    top: 10px;
+}
+.icon :hover i{
+    bottom: 10px;
+}
+.navbar{
+    margin-right: 35rem;
+    display: flex;
+    align-items: center;
+}
+.icon :hover{
+    color: #c0a483;
+    cursor: pointer;
+}
+.icon a{
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+#centericon{
+    margin: 20px;
+}
+.icon i{
+    font-size: 20px;
+    color: #fff
+}
+
+
+
+
+
+
+
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    background-color: #fff;
+    height: 1px;
+    bottom: 0px;
+    left: 0;
+    transition: .6s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.center-text{
+    text-align: center;
+}
+.center-text h1{
+    color: #FFFFFF;
+    font-family: 'Marcellus SC', serif; 
+    font-size: 70px;
+    line-height: 80px;
+}
+.center-text p{
+    color: #FFFFFF;
+    font-family: 'Marcellus SC', serif; 
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 3px;
+}
+#secondpage{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about-us.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.All-story{
+    display: flex;
+    justify-content: space-between;     
+    align-items: center;
+}
+.story-right h3{
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+}
+.story-right h2{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Marcellus SC', serif; 
+    color: #000;
+    font-weight: 400;
+}
+.story-left img{
+    margin-top: 40px;
+    width: 100%;
+}
+.meet-text h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-family: 'Marcellus SC', serif; 
+    margin-top: 40px;
+}
+.all-meetimage{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid  color #000000;
+}
+.meetimage img{
+    padding: 30px;
+}
+.firstmeet{
+    position: relative;
+}
+.meetimage{
+    position: absolute;
+    right: -1%;
+    top: -1%;
+}
+
+
+
+#color{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.color-image{
+    /* background-color: #882424; */
+    text-align: center;
+}
+.color-image svg{
+    width: 40%;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    padding: 35px;  
+    fill: #fff;
+}
+.allcoloricon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.color-image{
+    padding: 30px;
+}
+.downcolorimage h1{
+    font-family: 'Marcellus SC', serif;
+    font-size: 19px;
+    font-weight: 400;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+}
+.downcolorimage p{
+    color: #fff; 
+    font-family: 'Marcellus SC', serif;
+}
+
+#slick-slider{
+    background-color: #FAF4EE;
+}
+.slider-text h1{
+    text-align: center;
+    color: #000000;
+    font-family: 'Marcellus SC', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.clients-text{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.top-text p{
+    color: darkgray;
+    /* font-family: 'Marcellus SC', serif; */
+}
+.top-text h1{
+    font-family: 'Marcellus SC', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+.top-text i{
+    color: #ffc107;
+}
+.slider-text{
+    padding: 20px;
+    margin-top: 50px;
+}
+.slider-text h1{
+    margin-top: 30px;
+}
+.bottom-text h2{
+    margin-top: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 600;
+    font-family: Open Sans,sans-serif;
+}
+.bottom-text img{
+    border-radius: 100%;
+    margin: auto;
+}
+#bigpicture{
+    width: 27%;
+}
+.top-text{
+    margin-top: 25px;
+}
+.All-brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 60px;
+}
+.meet-text{
+    margin-bottom: 25px;
+}
+.meet-image{
+    position: relative;
+}
+
+.meetimage:hover i{
+    opacity: 1;
+}
+
+.meetimage .meet-iconn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.3);
+    width: 87%;
+    height: 84%;
+    transition: .5s all ease-in;
+}
+
+.meetimage:hover .meet-iconn{
+    
+    opacity: 1;
+}
+
+.meet-iconn i{
+    background-color: #fff;
+    color: #000;
+    border-radius: 100%;
+    padding: 10px 11px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 0;
+}
+#fb{
+padding: 10px 13px;
+}
+.meet-iconn i:hover{
+    background-color: #C0A483;
+    color: #fff;
+}
+.meet-iconn{
+    position: absolute;
+    top: 45%;
+    left: 26%;
+}
+.item-image img {
+    padding: 27px 80px;
+    width: auto;
+    max-height: 160px;
+    vertical-align: top;
+    border: 1px solid #b5b2b2;
+    transition: .6s;
+    
+}
+.image-txtt{
+    text-align: center;
+    margin-top: -20px;
+}
+.image-txtt h5{
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: -2px;
+    margin-top: 6px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.image-txtt span{
+    font-family:'Marcellus SC', serif;
+
+}
+.item-image img:hover{
+    scale: 1.3;
+}
+.item-image{
+    overflow: hidden;
+}
+#about-message{
+    background-color: #C0A483;
+}
+.letter-text h2{
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: 'Marcellus SC', serif;
+    align-items: center;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.right-letter input{
+    width: 100%;
+}
+.letter-text p{
+    color: #fff;
+    font-family: 'Marcellus SC', serif;
+    font-size: 16px;
+}
+.letter-icon i{
+    font-size: 50px;
+    color: #fff;
+}
+.left-letter{
+    display: flex;
+    margin-left: 80px;
+}
+.letter-text{
+    margin-left: 20px;
+}
+.All-letter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    padding: 40px;
+}
+.right-letter{
+    position: relative;
+}
+.right-letter button{
+    border: 0;
+    padding: 0 40px;
+    background: #000;
+    height: 55px;
+    line-height: 55px;
+    font-family: 'Marcellus SC', serif;
+    letter-spacing: .1em;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.right-letter input{
+    padding: 30px 200px;
+}
+.footericons i{
+    padding: 12px;
+    font-size: 17px ;
+    border-radius: 100%;
+    border: 1px solid rgb(144, 142, 142);
+    text-align: center;
+    color: #000;
+    margin-right: 15px;
+}
+.footericons i:hover{
+    color: #c0a483;
+    cursor: pointer;
+}
+.bootleft{
+    display: flex;
+    justify-content: space-between;
+}
+.boott a{
+    text-decoration: none;
+}
+.boott{
+    padding: 35px 0px 35px 0px;
+}
+
+#responsive-header{
+    display: none;
+}
+#responsive-headerbottom{
+    display: none;
+}
+#responsive-secondpage{
+    display: none;
+}
+#responsive-color{
+    display: none;
+}
+#responsive-slickslider{
+    display: none;
+}
+#responsive-brands{
+    display: none;
+}
+#responsive-aboutmessage{
+    display: none;
+}
+@media(max-width:576px){
+    #Header{
+        display: none;
+    }
+    #Header-bottom{
+        display: none;
+    }
+    #secondpage{
+        display: none;
+    }
+    #color{
+        display: none;
+    }
+    #slick-slider{
+        display: none;
+    }
+    #Brends{
+        display: none;
+    }
+    #about-message{
+        display: none;
+    }
+    #Meet-team{
+        display: none;
+    }
+    .rescontainer{
+        padding: 20px 20px;
+    }
+    #responsive-header{
+        display: block; 
+    }
+    .reshead{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #responsive-header .resimg img{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .resicon{
+        position: relative;
+    }
+    #responsive-header .reslogo i{
+        font-size: 20px;
+        color: #fff;
+    }
+    .resicon span{
+    position: absolute;
+    color: #fff;
+    font-size: 13px;
+    background-color:#c0a483;
+    border-radius: 50%;
+    padding: 0px 5px;
+    text-align: center;
+    top: -10px;
+    }
+    .resicon i:hover{
+        color: #c0a483;
+        cursor: pointer;
+    }
+    #responsive-header .resicon i{
+        font-size: 23px;
+        color: #fff;
+    }
+    #responsive-header{
+        background-color: #000;
+    }
+    #responsive-headerbottom{
+        display: block;
+    }
+    #responsive-secondpage{
+        display: block;
+    }
+    #responsive-headerbottom{
+        background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 155px 0px;
+    }
+    #responsive-headerbottom .center-text h1 {
+        color: #FFFFFF;
+        font-family: 'Marcellus SC', serif;
+        font-size: 50px;
+        line-height: 80px;
+    }
+    #responsive-headerbottom .center-text p {
+        color: #FFFFFF;
+        font-family: 'Marcellus SC', serif;
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 3px;
+    }
+    #responsive-secondpage{
+        background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about-us.jpg);
+        background-position: center;
+        background-size: contain;
+    }
+    #responsive-secondpage .story-right p{
+        color: #868686;
+    }
+    #responsive-color{
+        display: block;
+    }
+    #responsive-color .color-image svg{
+        width: 40%;
+        border-radius: 100%;
+        border: 2px solid #fff;
+        padding: 35px;  
+        fill: #fff;
+    }
+    #responsive-color .allcoloricon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    #responsive-color .color-image{
+        background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about2.jpg);
+        text-align: center;
+    }
+    #responsive-color .color-image{
+        padding: 30px;
+    }
+   
+    #responsive-color .downcolorimage h1{
+        font-family: 'Marcellus SC', serif;
+        font-size: 19px;
+        font-weight: 400;
+        width: 100%;
+        color: #fff;
+        margin-top: 20px;
+    }
+    #responsive-color .downcolorimage p{
+        color: #fff; 
+        font-family: 'Marcellus SC', serif;
+    }
+    #responsive-slickslider{
+        display: block;
+        background-color: #FAF4EE;
+    }
+    #responsive-slickslider .top-text{
+        text-align: center;
+    }
+    #responsive-slickslider .slider-text h1{
+        text-align: center;
+        font-family: 'Marcellus SC', serif;
+        color: #000000;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    #responsive-brands{
+        display: block;
+    }
+    #responsive-brands .slick-next:before{
+        display: none !important;
+     }
+     
+     #responsive-brands .slick-prev:before{
+         display: none !important;
+     }
+     #responsive-aboutmessage{
+        display: block;
+        background-color: #C0A483;
+     }
+     #responsive-aboutmessage .right-letter input {
+        padding: 30px 155px;
+    }
+    #responsive-aboutmessage .right-letter button{
+        right: 0px;
+    }
+    #responsive-aboutmessage .letter-text p {
+        font-size: 19px;
+        text-align: center;
+    }
+    #responsive-aboutmessage .letter-text h2 {
+        font-size: 32px;
+    }
+    #responsive-aboutmessage .letter-icon{
+        text-align: center;
+        margin: 25px 0px;
+    }
+    .bootleft{
+        display: block;
+        text-align: center;
+    }
+    #responsive-aboutmessage .right-letter button {
+        right: 4px;
+    }
+}
